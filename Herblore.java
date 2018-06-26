@@ -130,7 +130,7 @@ public class Herblore extends PollingScript<ClientContext> {
         }
     }
 
-    public void Normal(){
+    public void clean(){
         for (Item Herb : ctx.inventory.id(GRIMY_GUAM)){
             Herb.hover();
             Herb.click();

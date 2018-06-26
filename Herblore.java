@@ -43,7 +43,7 @@ public class Herblore extends PollingScript<ClientContext> {
                 break;
 
             case CLEANING:
-                Normal();
+                clean();
                 break;
 
             case BANKINGHERBS:
